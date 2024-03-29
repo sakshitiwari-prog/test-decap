@@ -3,7 +3,7 @@ import { Component } from 'react'
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
-import { attributes, react as HomeContent } from '../../content/home.md'
+import { attributes, react as HomeContent } from '../content/home.md'
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
